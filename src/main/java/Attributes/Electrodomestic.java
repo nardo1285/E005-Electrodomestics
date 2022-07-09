@@ -3,6 +3,10 @@ package Attributes;
 
 import Enums.Color;
 import Enums.Consume;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import jdk.swing.interop.SwingInterOpUtils;
 
 public class Electrodomestic {
 
@@ -13,6 +17,9 @@ public class Electrodomestic {
   protected Color color;
   protected Consume consume;
   protected Double weight;
+
+  Scanner read = new Scanner(System.in).useDelimiter("\n");
+  List<Electrodomestic> electrodomesticList = new ArrayList<>();
 
   public Electrodomestic() {
   }
@@ -124,6 +131,33 @@ objeto y no será visible*/
         break;
     }
     return this.color;
+  }
+
+  /*
+  Metodo crearElectrodomestico(): le pide la información al usuario y llena el
+electrodoméstico, también llama los métodos para comprobar el color y el
+consumo. Al precio se le da un valor base de $1000.
+   */
+  public void createElectrodomestic() {
+    System.out.println("---Sistema de carga de Electrodomésticos");
+
+    //INGRESO LA CATEGORÍA DE CONSUMO Y LA VALIDO
+    System.out.println(
+        "Paso 1 - Por favor indique el consumo, eligiendo según la letra desde la 'A' a la 'F'");
+    energeticConsumeValidation(read.next().toUpperCase().charAt(0));
+
+    //INGRESO EL COLOR Y LO VALIDO
+    System.out.println("Paso 2 - Por favor indique el Color" + "\n" +
+        "Seleccione entre Negro, Blanco, Azul, Rojo o Gris");
+    colorValidation(read.next().toUpperCase());
+
+    //AL PRECIO, SE LE ASIGNA UN VALOR BASE
+    this.price = 1000.0;
+
+    //INGRESO DEL PESO EN KG
+    System.out.println("Ingrese el peso del electrodoméstico en [kg]: ");
+    this.weight = read.nextDouble();
+    
   }
 
 }
