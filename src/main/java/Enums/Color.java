@@ -32,4 +32,6 @@ public enum Color {
   public void setValorColor(String valorColor) {
     this.valorColor = valorColor;
   }
+
+
 }

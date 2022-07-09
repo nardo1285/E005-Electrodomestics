@@ -73,17 +73,23 @@ public class Electrodomestic {
     switch (letterC) {
       case 'A':
         this.consume = Consume.A;
+        break;
       case 'B':
         this.consume = Consume.B;
+        break;
       case 'C':
         this.consume = Consume.C;
+        break;
       case 'D':
         this.consume = Consume.D;
+        break;
       case 'F':
         this.consume = Consume.F;
+        break;
       default:
         System.out.println("Consumo no categorizado, se asignará 'F'");
         this.consume = Consume.F;
+        break;
     }
     return this.consume;
   }
@@ -94,6 +100,30 @@ electrodomésticos son blanco, negro, rojo, azul y gris. No importa si el nombre
 está en mayúsculas o en minúsculas. Este método se invocará al crear el
 objeto y no será visible*/
 
-  private colorValidation()
+  private Color colorValidation(String colorSelected) {
+
+    switch (colorSelected.toUpperCase()) {
+      case "BLANCO":
+        this.color = Color.BLANCO;
+        break;
+      case "NEGRO":
+        this.color = Color.NEGRO;
+        break;
+      case "ROJO":
+        this.color = Color.ROJO;
+        break;
+      case "AZUL":
+        this.color = Color.AZUL;
+        break;
+      case "GRIS":
+        this.color = Color.GRIS;
+        break;
+      default:
+        System.out.println("El color no es el correcto, por lo que se le asignará Blanco");
+        this.color = Color.BLANCO;
+        break;
+    }
+    return this.color;
+  }
 
 }
