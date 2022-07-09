@@ -157,7 +157,59 @@ consumo. Al precio se le da un valor base de $1000.
     //INGRESO DEL PESO EN KG
     System.out.println("Ingrese el peso del electrodoméstico en [kg]: ");
     this.weight = read.nextDouble();
-    
+
   }
 
-}
+  //MÉTODOS PARA DETERMINAR EL PRECIO FINAL
+  //• Método precioFinal(): según el consumo energético y su tamaño, aumentará
+//el valor del precio. Esta es la lista de precios:
+
+  //LETRA PRECIO
+//A $1000
+//B $800
+//C $600
+//D $500
+//E $300
+//F $100
+  public Double finalPrice() {
+
+    switch (this.consume) {
+      case A:
+        this.price += 1000;
+        break;
+      case B:
+        this.price += 800;
+        break;
+      case C:
+        this.price += 600;
+        break;
+      case D:
+        this.price += 500;
+        break;
+      case E:
+        this.price += 300;
+        break;
+      case F:
+        this.price += 100;
+        break;
+    }
+
+    //PESO PRECIO
+//Entre 1 y 19 kg  $100
+//Entre 20 y 49 kg $500
+//Entre 50 y 79 kg $800
+//Mayor que 80 kg $1000
+    if (this.weight < 20) {
+      this.price += 100;
+    } else if (this.weight < 50) {
+      this.price += 500;
+    } else if (this.weight < 80) {
+      this.price += 800;
+    } else {
+      this.price += 1000;
+    }
+
+    return this.price;
+  }
+
+  }
