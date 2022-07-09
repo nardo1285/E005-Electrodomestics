@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="361934ed-9df5-4155-bd94-22f51e898ceb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Attributes/Electrodomestic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attributes/Electrodomestic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enums/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enums/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enums/Consume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enums/Consume.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Leo/Documents/Estudio/Java/Como era/E-005-Electrodomestics",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"

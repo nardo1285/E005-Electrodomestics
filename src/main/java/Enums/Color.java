@@ -16,7 +16,7 @@ public enum Color {
   private String valorColor;
 
   //CONSTRUCTORES
-  private Color(){
+  private Color() {
 
   }
 
