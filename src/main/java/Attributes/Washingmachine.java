@@ -52,5 +52,5 @@ si la carga es menor o igual, no se incrementará el precio.
   public String toString() {
     return super.toString() + "\n" + "- Capacity: " + capacity + " --<";
   }
-  
+
 }
