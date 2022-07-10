@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="361934ed-9df5-4155-bd94-22f51e898ceb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Attributes/Electrodomestic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attributes/Electrodomestic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Attributes/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attributes/Television.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Attributes/Washingmachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attributes/Washingmachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +49,19 @@
   }
 }</component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <module name="E-005-Electrodomestics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="E-003-Electrodomestics" />
       <method v="2">
@@ -59,6 +75,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

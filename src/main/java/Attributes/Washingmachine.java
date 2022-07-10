@@ -25,7 +25,8 @@ public class Washingmachine extends Electrodomestic {
   }
 
   //CREAREMOS LA LAVADORA, HEREDANDO LOS ATRIBUTOS DE LA SUPERCLASE
-  public void createWashingmachine() {
+  @Override
+  public void createElectrodomestic() {
     super.createElectrodomestic();
 
     System.out.println("Paso 03 - Por favor indique la capacidad de carga en [kg]");

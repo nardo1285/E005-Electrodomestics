@@ -65,5 +65,12 @@ aumentará $500.-*/
 
     return this.price;
   }
-  
+
+  //IMPRIMIR POR PANTALLA LAS CARACTERÍSTICAS
+  @Override
+  public String toString() {
+    return super.toString() + "\n"
+        + "- Resolución " + size + "plg\n"
+        + "- TDT: " + tdt + "-<";
+  }
 }

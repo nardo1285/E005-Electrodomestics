@@ -139,7 +139,7 @@ electrodoméstico, también llama los métodos para comprobar el color y el
 consumo. Al precio se le da un valor base de $1000.
    */
   public void createElectrodomestic() {
-    System.out.println("---Sistema de carga de Electrodomésticos");
+
 
     //INGRESO LA CATEGORÍA DE CONSUMO Y LA VALIDO
     System.out.println(
