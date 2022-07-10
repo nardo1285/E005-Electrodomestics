@@ -6,7 +6,7 @@ import Enums.Consume;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import jdk.swing.interop.SwingInterOpUtils;
+
 
 public class Electrodomestic {
 
@@ -69,7 +69,7 @@ public class Electrodomestic {
         "- Price: " + price + "\n" +
         "- Color: " + color + "\n" +
         "- Consume: " + consume + "\n" +
-        "- Weight: " + weight + ".-";
+        "- Weight: " + weight;
   }
 
   //• Método comprobarConsumoEnergetico(char letra): comprueba que la letra
@@ -134,7 +134,7 @@ objeto y no será visible*/
   }
 
   /*
-  Metodo crearElectrodomestico(): le pide la información al usuario y llena el
+  Metodo crear Electrodomestico(): le pide la información al usuario y llena el
 electrodoméstico, también llama los métodos para comprobar el color y el
 consumo. Al precio se le da un valor base de $1000.
    */
@@ -212,4 +212,4 @@ consumo. Al precio se le da un valor base de $1000.
     return this.price;
   }
 
-  }
+}
